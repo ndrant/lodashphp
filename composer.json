@@ -1,0 +1,19 @@
+{
+    "name": "ndrant/lodashphp",
+    "description": "Library lodash for PHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ndrant\\Lodashphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Indra Heryanto",
+            "email": "indrasids74@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
