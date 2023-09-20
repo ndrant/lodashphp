@@ -7,9 +7,4 @@ final class Lodashphp
     {
         return 'Halo... ' . $name . ', Welcome to new Library';
     }
-
-    public function sumBy()
-    {
-
-    }
 }
