@@ -26,7 +26,7 @@ final class Lodashphp
     function sumBy($array, $iteratee)
     {
         if ($array && count($array) > 0) {
-            $result = baseSum($array, function ($item) use ($iteratee) {
+            $result = $this->baseSum($array, function ($item) use ($iteratee) {
                 return $iteratee($item);
             });
             return $result;
